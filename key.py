@@ -30,4 +30,4 @@ hm.KeyDown = OnKeyboardEvent
 # set the hook
 hm.HookKeyboard()
 # wait forever
-pythoncom.PumpMessages()
+pythoncom.PumpMessages(
